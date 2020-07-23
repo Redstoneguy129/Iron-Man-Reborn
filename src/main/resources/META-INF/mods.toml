@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/Redstoneguy129/Iron-Man-Reborn/issues"
+
+[[mods]]
+modId="ironmanreborn"
+version="0.1"
+displayName="Iron Man Reborn"
+#updateJSONURL="http://myurl.me/"
+displayURL="https://github.com/Redstoneguy129/Iron-Man-Reborn"
+credits="Thanks to Biz for making suits."
+authors="Redstoneguy129"
+description='''
+Description
+'''
+
+[[dependencies.ironmanreborn]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ironmanreborn]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
